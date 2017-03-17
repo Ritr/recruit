@@ -45,15 +45,114 @@ Example:		class="clearfix|cl"
 Explain:		Clearfix（简写cl）避免因子元素浮动而导致的父元素高度缺失能问题
 */
 .cl:after,.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.cl,.clearfix{zoom:1}
+/*------------------------------------ boostrap reset -----------------------------------------*/
+.navbar {
+    margin: 0;
+}
+.navbar-brand{
+    height: auto;
+    padding: 0;
+    font-size: inherit;
+    line-height: inherit;
+}
 
-/* body */
-/* end */
+.navbar-text{
+	margin:0;
+}
+/*----------------------------------------- end -------------------------------------------*/
 
-/* head css */
-/* end */
+/*----------------------------------------- body -----------------------------------------*/
+body {
+    background-color: #ebebeb;
+}
+.main-container {
+    width: 1024px;
+    margin: 0 auto;
+}
+/*----------------------------------------- end -----------------------------------------*/
 
-/* footer css */
-/* end */
+/*----------------------------------------- head  -----------------------------------------*/
+.head {
+    height: 35px;
+    background-color: #3595dc;
+    color: #fff;
+    line-height: 35px;
+    font-size: 14px;
+}
+.crumbs {
+    cursor: pointer;
+}
 
-/* main container */
-/* end */
+.crumbs-split {
+    margin: 0 10px;
+}
+.message {
+    position: relative;
+}
+
+.message-num {
+    position: absolute;
+    right: -5px;
+    top: -15px;
+    font-size: 14px;
+    color: #f00;
+}
+/*----------------------------------------- end -----------------------------------------*/
+
+/*----------------------------------------- nav -----------------------------------------*/
+.sn-nav {
+    height: 87px;
+    line-height: 87px;
+    background-color: #fff;
+}
+
+.sn-nav-title{
+    color: #000;
+    line-height: 87px;
+    font-size:28px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.sn-nav-menu{
+	font-size: 18px;
+	color: #000;
+	line-height: 87px;
+	margin:0 20px;
+}
+.sn-nav-menu a{
+	color: #000;
+	text-decoration:none;	
+}
+.sn-nav-menu a.active{
+	color: #f00;
+}
+/*----------------------------------------- end -----------------------------------------*/
+
+/*---------------------------------------- footer ----------------------------------------*/
+.footer{	
+	width: 100%;
+	position: absolute;
+	text-align: center;
+	font-size:14px;
+	bottom: 0;
+}
+.footer-nav{
+	background-color: #dbdbdb;
+	height: 52px;
+	line-height: 52px;
+	color: #a0a0a0;
+}
+.footer a{
+	color: #a0a0a0;
+	text-decoration: none;
+}
+.footer-copyright{
+	height: 65px;
+	line-height: 40px;
+	color:#a0a0a0;
+	background-color: #fff;
+}
+.footer-crumbs{
+	margin:0 20px;
+}
+/*----------------------------------------- end -----------------------------------------*/
