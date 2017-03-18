@@ -1,0 +1,24 @@
+{
+  "name": "recruit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^1.0.0",
+    "gulp-file-includer": "^1.0.0",
+    "run-sequence": "^1.2.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-replace": "^0.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/http_wenwen/recruit.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
